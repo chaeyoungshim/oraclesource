@@ -27,6 +27,8 @@ delete from member where id=1018;
 commit;
 select * from member;
 
+insert into member values(101, '한소희','강남','han@naver.com',25);
+rollback;
 
 
 
