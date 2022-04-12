@@ -22,12 +22,12 @@ select * from member;
 --기본 시퀀스 생성하자
 create sequence member_seq; 
 
-delete from member where id=1018;
+delete from member where name='한소희';
 
 commit;
 select * from member;
 
-insert into member values(101, '한소희','강남','han@naver.com',25);
+insert into member values(1, '한소희','강남','han@naver.com',25);
 rollback;
 
 
