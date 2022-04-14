@@ -22,7 +22,7 @@ select * from member;
 --기본 시퀀스 생성하자
 create sequence member_seq; 
 
-delete from member where name='한소희';
+delete from member where name='한가인';
 
 commit;
 select * from member;
