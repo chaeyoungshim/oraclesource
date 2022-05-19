@@ -30,8 +30,13 @@ select * from member;
 insert into member values(1, '한소희','강남','han@naver.com',25);
 rollback;
 
+drop table memotbl;
+drop sequence mem_seq;
 
+select * from guestbook;
 
+delete from guestbook;
+commit;
 
 
 
